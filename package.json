@@ -1,5 +1,12 @@
 {
   "name": "@decibeltrade/tsconfig",
   "version": "1.0.1",
-  "description": "Shared TypeScript configuration for the Decibel monorepo"
+  "description": "Shared TypeScript configuration for the Decibel monorepo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decibeltrade/tsconfig.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
