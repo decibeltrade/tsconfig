@@ -7,6 +7,9 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "incremental": true
+    "incremental": true,
+    // TS 6/7 changed the default from "include every @types package" to [].
+    // Pin the old behavior; packages can narrow this individually.
+    "types": ["*"]
   }
 }
